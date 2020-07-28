@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 666
 =======
 whywhywhywhywhywhy
@@ -7,3 +8,8 @@ whywhywhywhywhywhy
 =======
 whywhywhywhywhywhy
 >>>>>>> c
+=======
+Git is a version control system.
+Git is a real useful free software.
+NONONONONO
+>>>>>>> 0641b296cc338372a4b9e306d89d47f0a915514c
