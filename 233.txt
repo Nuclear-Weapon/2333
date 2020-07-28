@@ -1,2 +1,9 @@
-Git is a version control system.
-Git is a real useful free software.
+<<<<<<< HEAD
+<<<<<<< HEAD
+666
+=======
+whywhywhywhywhywhy
+>>>>>>> c
+=======
+whywhywhywhywhywhy
+>>>>>>> c
