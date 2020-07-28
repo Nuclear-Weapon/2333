@@ -3,9 +3,19 @@ using namespace std;
 
 int main()
 {
-
- cout << "hello world" << endl;
- cout << "bye";
-
+ int a,b;
+ int c;
+ 
+ cout << "a+b=c" << endl;
+ 
+ cout << "a" << endl;
+ cin >> a;
+ cout << "b" << endl;
+ cin >> b;
+ 
+ c=a+b;
+ 
+ cout << c;
+ 
  return 0;
 }
