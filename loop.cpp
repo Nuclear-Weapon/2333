@@ -4,7 +4,7 @@ using namespace std;
 int main() 
 { int n;
 
-  for( n=0;n<=53;n+=1 )
+  for( n=0;n<=52;n+=1 )
   {cout << "-" ;
   }
 
