@@ -3,19 +3,19 @@ using namespace std;
 
 int main()
 {
-	float t,h;
-	float g=9.8;
+	float Time,Height;
+	float Gravity=9.8;
 	
 	cout << "This program can caculate the height of freefalll\n";
 	
 	cout << "Push Time into this program\n";
-	cin >> t;
+	cin >> Time;
 	
-	h=g*t*t/2;
+	Height=Gravity*Time*Time/2;
 	
 	cout << "This is the caculate result\n";
 	
-	cout << h;
+	cout << Height;
 	
 	return 0;
 }
