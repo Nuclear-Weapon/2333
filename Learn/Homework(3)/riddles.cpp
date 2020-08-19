@@ -4,39 +4,57 @@ using namespace std;
 int main() 
 
 {
-	int a = 0,b = 0, c = 0,c = 0;
+	int a = 0,b = 0, c = 0,d = 0;
 	
-	cout << "Riddles!!";
+	cout << "Riddles!!\n";
 	
-	cout << "Inpute the thousands digit";
-	cin >> a;
-	
-	cout << "Inpute the hundreds digit";
-	cin >> b;
-	
-	while(a == b)
+	for (d = 1;d <= 9;d += 2)
 	{
-		cout << "This number can not be used,please input it again";
-		cin >> b;
+		for (a = 3;a <= 9;a += 3)
+		{
+			if(a == d)
+			{
+				continue;
+			}
+			
+			c = a/3;
+			
+			if(c == d)
+			{
+				continue;
+			}
+			
+			b = 27 - c - d - a;
+			
+			if(b == d)
+			{
+				continue;
+			}
+			
+			if(a == b)
+			{
+				continue;
+			}
+			
+			if(a >= 10)
+			{
+				continue;
+			}
+			
+			if(b >= 10)
+			{
+				continue;
+			}
+			
+			if(d >= 10)
+			{
+				continue;
+			}
+			
+			cout << a << b << c << d;
+		}
 	}
 	
-	cout << "Inpute the tens digit";
-	cin >> c;
-	
-	while(a == c || b == c)
-	{
-		cout << "This number can not be used,please input it again";
-		cin >> c;
-	}
-	
-	cout << "Inpute the digits";
-	cin >> d;
-	
-	while(a == d || b == d || c = d)
-	{
-		cout << "This number can not be used,please input it again";
-		cin >> d;
-	}
 	
 	return 0;
 }
