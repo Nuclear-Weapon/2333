@@ -1,11 +1,13 @@
 #include<iostream>
 using namespace std;
 
+#define CALLON 0.264179
+
 double conv(double b)
 {
 	double a = 0;
 	
-	a = b / 0.264179;
+	a = b / CALLON;
 	
 	return a;
 }
