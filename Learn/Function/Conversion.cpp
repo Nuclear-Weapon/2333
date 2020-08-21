@@ -1,19 +1,20 @@
 #include<iostream>
 using namespace std;
 
-#define CALLON 0.264179
+const double GALLON = 0.264179;
 
 double conv(double b)
 {
 	double a = 0;
 	
-	a = b / CALLON;
+	a = b / GALLON;
 	
 	return a;
 }
 
 int main() 
 {
+	const double GALLON = 0.264179;
 	double a = 0, b = 0, d = 0;
 	int c = 0;
 	
@@ -32,12 +33,12 @@ int main()
 	switch(c)
 	{
 		case 1:
-		d = a / b;
+			d = a / b;
 		break;
 		
 		case 2:
-		b = conv(b);
-		d = a / b;
+			b = conv(b);
+			d = a / b;
 		break;
 	}	
 	
