@@ -1,10 +1,11 @@
 #include<iostream>
 using namespace std;
 
+#define Gravity 9.8
+
 int main()
 {
 	float Time,Height;
-	float Gravity=9.8;
 	
 	cout << "This program can caculate the height of freefalll\n";
 	
